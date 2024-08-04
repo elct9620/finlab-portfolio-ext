@@ -8,7 +8,7 @@
     "init_hook": [],
     "scripts": {
       "test": [
-        "poetry run coverage run -m behave",
+        "poetry run coverage run --source=./finlab_portfolio_ext -m behave",
       ]
     }
   }
