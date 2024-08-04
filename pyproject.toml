@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "finlab-portfolio-ext"
+version = "0.1.0"
+description = ""
+authors = ["Aotokitsuruya <contact@aotoki.me>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+finlab = "^1.2.8"
+
+[tool.poetry.group.dev.dependencies]
+python-lsp-server = "^1.11.0"
+ruff = "^0.5.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
