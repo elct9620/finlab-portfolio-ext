@@ -12,9 +12,10 @@ env:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
     name: Python ${{ matrix.python-version }} on ${{ runner.os }}
-    matrix:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
         python-version: ["3.9", "3.10", "3.11"]
         os: [ubuntu-latest, macos-latest]
     steps:
