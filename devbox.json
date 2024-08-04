@@ -5,12 +5,10 @@
     "poetry@latest"
   ],
   "shell": {
-    "init_hook": [
-      "poetry shell"
-    ],
+    "init_hook": [],
     "scripts": {
       "test": [
-        "poetry run behave"
+        "poetry run coverage run -m behave",
       ]
     }
   }
