@@ -1,3 +1,1 @@
-class CustomPositionManager:
-    def current_position(self):
-        return {}
+from .hybrid_manager import HybridManager as HybridManager
