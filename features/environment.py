@@ -1,10 +1,10 @@
 from behave import fixture, use_fixture
-from finlab_portfolio_ext import Manager
+from finlab_portfolio_ext import CustomPositionManager
 
 
 @fixture
 def manager(context):
-    context.manager = Manager()
+    context.manager = CustomPositionManager()
     yield context.manager
 
 

@@ -4,6 +4,9 @@
     "python@3.9",
     "poetry@latest"
   ],
+  "env": {
+        "VENV_DIR": ".venv"
+  },
   "shell": {
     "init_hook": [],
     "scripts": {
