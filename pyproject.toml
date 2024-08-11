@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 finlab = "^1.2.8"
+numpy = "<2"
 
 [tool.poetry.group.dev.dependencies]
 python-lsp-server = "^1.11.0"
